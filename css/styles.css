@@ -1,0 +1,19 @@
+/* Header */
+header {
+    background-color: #0B3641;
+    max-height: 50px;
+}
+
+
+.logo {
+    max-width: 250px;
+    margin: 50px 50px 50px 100px;
+}
+
+
+
+/* Main */
+
+.jackets {
+    max-width: 150px;
+}
