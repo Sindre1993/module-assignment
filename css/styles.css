@@ -1,19 +1,29 @@
 /* Header */
 header {
-    background-color: #0B3641;
-    max-height: 50px;
 }
 
+body {
+    background-image: url(../images/banner-photo-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 .logo {
     max-width: 250px;
     margin: 50px 50px 50px 100px;
 }
 
-
+.toptext {
+    background-color: #0B3641;
+}
 
 /* Main */
 
-.jackets {
-    max-width: 150px;
+.jacket-product {
+    display: flex;
+}
+
+.jacket-product_specific {
+    max-height: 200px;
+    margin: 10px 25px 5px 0px;
 }
