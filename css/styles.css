@@ -2,17 +2,30 @@
 header {
 }
 
+
 .navigation {
     display: flex;
     justify-content: space-around;
     font-size: 25px;
-    background-color: #FF4E00;
+    list-style-type: none;
+    padding: 0;
 }
 
 .searchtab {
     display: flex;
     justify-content: center;
-    background-color: #FF4E00;
+    flex: 1 0 auto;
+}
+
+.logo-search-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.searchtab-input {
+    width: 300px;
+    padding: 16px;
+    border-radius: 32px;
 }
 
 .toptext {
@@ -41,21 +54,35 @@ header {
     color: #FF4E00;
     width: 90%;
     display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
 .top-banner-text {
-display: absolute;
-width 500px;
 font-weight: bold;
+font-size: 48px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+
+.top-banner-text p {
+    text-transform: uppercase;
+    margin: 0 0 24px 0;
+}
+
+.cta-wrap {
+    display: flex;
 }
 
 .cta-banner {
-    width: 400px;
     padding: 15px;
-    margin: 0px;
-    display: flex;
-    align-items: center;
+    height: 25px;
+    font-size: 1.5em;
+    background-color: #FF4E00;
+    margin: 0 24px;
 }
 
 /* Main */
