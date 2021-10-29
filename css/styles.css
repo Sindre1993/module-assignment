@@ -2,12 +2,29 @@
 header {
 }
 
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    background-color: #FF4E00;
+}
+
+.searchtab {
+    display: flex;
+    justify-content: center;
+    background-color: #FF4E00;
+}
+
 .toptext {
     color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
 }
 
 .logo {
-    max-width: 250px;
+    max-width: 300px;
     margin: 50px 50px 50px 100px;
 }
 
@@ -18,11 +35,27 @@ header {
 .home-banner {
     background-image: url(../images/banner-photo-2.jpg);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     min-height: 400px;
     margin: 0px 75px 75px 75px;
     color: #FF4E00;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.top-banner-text {
+display: absolute;
+width 500px;
+font-weight: bold;
+}
+
+.cta-banner {
+    width: 400px;
+    padding: 15px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
 }
 
 /* Main */
